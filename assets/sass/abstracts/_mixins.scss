@@ -1,0 +1,29 @@
+
+@mixin alignCenter {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin buttonNext($color){
+    background-color:$color;
+}
+
+@mixin circle($color){
+    height:130px;
+    width:130px;
+    background-color:$color;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin read{
+    background-color:black;
+    font-size: 1.125rem;
+    font-family: $bold;
+    color:white;
+    width:14.25rem;
+    height:4.625rem;
+}

@@ -1,0 +1,100 @@
+@import "../../../node_modules/bootstrap/scss/_functions";
+@import "../../../node_modules/bootstrap/scss/_variables";
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 426px,
+  md: 769px,    
+  lg: 1120px,
+  xl: 1440px
+) !default;
+
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F8F8F8;
+    // overflow-x: hidden;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    margin: 0;
+    padding:0;
+}
+.container-fluid{
+    max-width:1760px;
+}
+
+.container{
+    max-width:1170px;
+}
+
+.line-left{
+    width:0.313rem;
+    height:7.5rem;
+    background-color:$greenColor;
+    position:relative;
+    right:3rem;
+}
+.line-right{
+    width:0.313rem;
+    height:7.5rem;
+    background-color:$greenColor;
+    position:relative;
+    left:3rem;
+}
+
+.wi-8{
+    width:.8rem;
+}
+.vector-circle{
+    height:130px;
+    width:130px;
+    background-color:$greenColor;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.vector-red-circle{
+    height:130px;
+    width:130px;
+    background-color:$pinkColor;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding-top{
+    padding-top:2rem;
+}
+
+@media screen and (max-width:1560px){
+    .vector-circle,.vector-red-circle{
+        height:120px;
+        width:120px;
+    }   
+}
+
+@media only screen and (max-width:1360px){
+.line-right,.line-left{
+    display:none;
+}    
+}
+@media screen and (max-width:1120px){
+    .vector-circle,.vector-red-circle{
+        height:90px;
+        width:90px;
+    }   
+}

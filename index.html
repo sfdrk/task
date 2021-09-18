@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<header>
+    <div class="container-fluid">
+        <div class="navigation-container">
+            <div class="logo-block">
+                <img class="logo" src="./assets/images/logo.png" alt="logo">
+                <p class="brand-name">Logo</p>
+            </div>
+            <div class="container">
+                <div class="dropdown">
+                    <ul class="navigation">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                    <ul class="sub-navigation">
+                        <li><a href="#">Login</a></li>
+                        <li><i class="fas fa-search"></i></li>
+                        <li>
+                            <a href="tel:+01234567890">
+                                <i class="call fas fa-phone-alt"></i> 
+                                CALL : +01 1234567890
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hamberger d-lg-none">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="hero-container">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 col-12">
+                            <div class="hero-content">
+                                <p class="hero-heading">
+                                    Full Service
+                                </p>
+                                <p class="hero-sub-heading">
+                                    SEO Marketing
+                                </p>
+                                <p class="hero-sub-content">
+                                    anything embarrassing hidden in the middle of text. All the Lorem Ipsuanything embarrassing hidden in the middle of
+                                    text. All the Lorem Ipsumm
+                                </p>
+                                <div class="button-container">
+                                    <a class="read-more" href="#">Read more</a>
+                                    <a class="contact-us" href="#">Contact us</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-12">
+                            <div class="hero-img-block">
+                                <picture>
+                                    <source srcset="./assets/images/hero.webp" media="(min-width:426px)">
+                                    <source srcset="./assets/images/heromobile.webp" media="(max-width:426px)">
+                                    <img src="./assets/images/hero.jpg" alt="banner image">
+                                </picture>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</div>
+<div class="layer-container">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 col-12 d-flex justify-content-center align-items-center">
+                <div class="line-left"></div>
+                <div class="layer-img-block">
+                    <img src="./assets/images/demo.png" alt="seo">
+                </div>
+            </div>
+            <div class="col-md-7 col-12 d-flex justify-content-center align-items-center">
+                <div class="layer-content">
+                    <p class="layer-heading">
+                        About
+                    </p>
+                    <p class="layer-sub-heading">
+                        Grow Your Business<br> with Our Company
+                    </p>
+                    <p class="layer-sub-content">
+                        words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure
+                        there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to
+                        repeat predefined chunks
+                    </p>
+                    <a class="layer-read-more" href="#">Read more</a>
+                </div>
+                <div class="line-right wi-8"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="service-container">
+    <div class="container-fluid">
+        <p class="service-heading">Services</p>
+        <p class="service-sub-heading">Business</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12 d-flex align-items-center">
+                    <div class="line-left"></div>
+                    <div class="col">
+                        <div class="row-6">
+                            <div class="circle-content">
+                                <div class="vector-circle">
+                                    <img src="./assets/images/shout.png" alt="shout">
+                                </div>
+                                <p class="content-heading">
+                                    Content Marketing
+                                </p>
+                                <div class="content-sub-heading">
+                                    generators on the Internet tend to<br> repeat predefined chunks as<br> necessary
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-6 padding-top">
+                            <div class="circle-content">
+                                <div class="vector-circle">
+                                    <img src="./assets/images/monitor.png" alt="monitor">
+                                </div>
+                                <p class="content-heading">SEO Optimization</p>
+                                <div class="content-sub-heading"> generators on the Internet tend to<br> repeat predefined chunks as<br> necessary
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="circle-center-content">
+                    <div class="circle-content">
+                        <div class="vector-red-circle">
+                            <img src="./assets/images/ppc.png" alt="ppc">
+                        </div>
+                        <p class="content-heading"> PPC Advertising </p>
+                        <div class="content-sub-heading"> generators on the Internet tend to<br> repeat predefined chunks as<br> necessary
+                        </div>
+                    </div>
+                    <div class="circle-read-more-block">
+                        <a class="circle-content-read-more" href="#">Read More</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 d-flex align-items-center">
+                    <div class="col">
+                        <div class="row-6">
+                            <div class="circle-content">
+                                <div class="vector-circle">
+                                    <img src="./assets/images/mobile-app.png" alt="mobile">
+                                </div>
+                                <p class="content-heading">App Development</p>
+                                <div class="content-sub-heading"> generators on the Internet tend to<br> repeat predefined chunks as<br>
+                                necessary 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-6 padding-top">
+                            <div class="circle-content">
+                                <div class="vector-circle">
+                                    <img src="./assets/images/internet.png" alt="internet">
+                                </div>
+                                <p class="content-heading">Social Marketing</p>
+                                <div class="content-sub-heading"> generators on the Internet tend to<br> repeat predefined chunks as<br>
+                                    necessary </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="line-right"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="skew-container">
+    <div class="skew-first-block">
+        <img src="./assets/images/Layer4.jpg" alt="layer">
+    </div>
+    <div class="skew-second-block">
+        <p class="skew-heading">
+            Pay for Qualified Traffic
+        </p>
+        <p class="skew-sub-heading">
+            Internet. It uses a dictionary of over 200 Latin words, combined with ahandful of model sentence structures, to
+            generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum istherefore
+        </p>
+        <a class="skew-read-more" href="#">Read More</a>
+    </div>
+</div>
+<div class="testimonial-container">
+    <p class="test-heading">
+        Testimonial
+    </p>
+    <p class="test-sub-heading">
+        even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to
+    </p>
+        <div class="container">
+        <div class="testimonial-swiper">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-block">
+                            <p class="test-block-heading">
+                                JACK MORK
+                            </p>
+                            <p class="test-block-content d-sm-block d-none">
+                                many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by
+                                injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of
+                                Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All themany variations
+                                of passages of Lorem Ipsum available,but the majority have suffered alteration in some embarrassing hidden in the
+                                middle of text. All the
+                            </p>
+                            <p class="test-block-content d-sm-none d-block">
+                                many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by
+                                injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">Slide 2</div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="form-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <div class="form-block">
+                    <p class="form-heading">
+                        GET IN TOUCH
+                    </p>
+                    <form class="get-in-touch-form">
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Your Email">
+                        <input type="tel" placeholder="Your Phone">
+                        <input type="text" placeholder="Message">
+                        <a class="send" href="#">SEND</a>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="news-letter-block">
+                    <p class="news-heading">
+                        Newsletter
+                    </p>
+                    <p class="news-sub-content">
+                        the majority have suffered alteration in some form, by injected humour, or randomised words which don't
+                    </p>
+                    <input type="email" placeholder="Enter Your Email">
+                    <a class="subscribe" href="#">SUBSCRIBE NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-12 d-flex justify-content-center">
+                <div class="footer-block">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p class="footer-heading">
+                        Address
+                    </p>
+                    <p class="footer-sub">
+                        Location
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4 col-12 d-flex justify-content-center">
+                <div class="footer-block">
+                <i class="fas fa-phone-alt"></i>
+                <p class="footer-heading">Phone</p>
+                <p class="footer-sub">
+                    <a href="tel:+011234567890">+01 1234567890</a>
+                </p>
+                </div>
+            </div>
+            <div class="col-sm-4 col-12 d-flex justify-content-center">
+                <div class="footer-block">
+                <i class="fas fa-envelope"></i>
+                <p class="footer-heading">Email</p>
+                <p class="footer-sub">
+                    <a href="mailto:demo@gmail.com">demo@gmail.com</a>
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="footer-border-line"></div>
+        </div>
+        <ul class="footer-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul class="social-block">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+        <p class="rights">© 2021 All Rights Reserved.</p>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>

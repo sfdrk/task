@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Sen Bold';
+    src: url('../fonts/Sen-Bold.woff2') format('woff2'),
+        url('../fonts/Sen-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sen ExtraBold';
+    src: url('../fonts/Sen-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Sen-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sen Regular';
+    src: url('../fonts/Sen-Regular.woff2') format('woff2'),
+        url('../fonts/Sen-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+

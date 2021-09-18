@@ -1,0 +1,147 @@
+footer{
+    background-color:#252525;
+    padding-top: 6.125rem;
+    padding-bottom:2.5rem;
+    .footer-block{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+
+    i{
+        font-size:2rem;
+        color:$greenColor;
+    }
+    .footer-heading{
+        font-size:2.5rem;
+        color:white;
+        font-family:$bold;
+    }
+    .footer-sub{
+        font-size:1.125rem;
+        color:white;
+        font-family: $regular;
+        a{
+            color:white;
+        }
+    }
+}
+.footer-border-line{
+    height:1px;
+    width:28.813rem;
+    background-color:$greenColor;
+    text-align:center;
+    margin-top:4.375rem;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    padding-top:4.375rem;
+    li{
+        padding:0 1rem;
+        font-size:1.125rem;
+        font-family: $regular;
+        a{
+            color:white;
+        }
+    }
+}
+.social-block{
+    display: flex;
+    justify-content: center;
+    padding-top: 3.1rem;
+    li{
+        padding:0 1rem;
+        a{
+            color:white;
+        }
+    }
+}
+.rights{
+    text-align:center;
+    font-size: 1.125rem;
+    font-family: $regular;
+    color:white;
+    padding-top: 3.75rem;
+}
+}
+
+@media screen and (max-width:1560px){
+    footer{
+        padding-top:5rem;
+        padding-bottom:2rem;
+        .footer-block{
+            gap:.75rem;
+        }
+        .footer-nav{
+            padding-top:3.5rem;
+        }
+        .social-block{
+            padding-top:2.7rem;
+        }
+        .rights{
+            padding-top:2.75rem;
+        }
+    }
+}
+
+@media screen and (max-width:1120px){
+    footer{
+            // .footer-border-line{
+            //     display:none;
+            // }
+        padding-top:3rem;
+        padding-bottom:1.5rem;
+        .footer-block{
+            gap:.65rem;
+        }
+        .footer-nav{
+            padding-top:3rem;
+        }
+        .social-block{
+            padding-top:2.3rem;
+        }
+        .rights{
+            padding-top:2.4rem;
+        }
+    }
+}
+
+@media only screen and (max-width:820px){
+    footer{
+        .footer-block{
+            gap:.5rem;
+            .footer-heading{
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:426px){
+    footer{
+        padding-top:2rem;
+        padding-bottom:1.2rem;
+        .footer-border-line{
+                display:none;
+            }
+        .footer-block{
+            gap:.3rem;
+            padding-bottom:2rem;
+            text-align:center;
+        }
+        .footer-nav{
+            padding-top:0rem;
+            li{
+                padding:0 .8rem;
+                font-size:1rem;
+            }
+        }
+        .social-block{
+            padding-top:1.8rem;
+        }
+        .rights{
+            padding-top:1.8rem;
+        }
+    }
+}
+
